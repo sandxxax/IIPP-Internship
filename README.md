@@ -5,6 +5,16 @@ My IIPP Internship was for 3 months in the field of cyber security and my Intern
 (3) Real implementation:you need to implement at least four actions(System Activity Monitoring, Network Monitoring, Network Analysis, Malware detonation.) according to your design in (2) in the real honeypot.
 
 **Enhancing Tpot CE Honeypot Through the Implementation of MITRE Engage Goal ‘Expose’**
+
+
+
+
+
+
+
+
+
+
 The MITRE Engage framework provides a strategic and comprehensive guide for cybersecurity 
 professionals to actively engage adversaries, emphasizing the importance of proactive defense through 
 cyber denial, deception, and adversary engagement. Traditionally, cyber defense focused on denying 
