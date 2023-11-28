@@ -11,7 +11,7 @@ This repository serves as the documentation and code repository for the Internat
 - [Internship Goals](#internship-goals)
 - [Introduction to MITRE Engage](#introduction-to-mitre-engage)
 - [Tools Used](#tools-used)
-- [Installation and Configuration of Tpot Honeypot](#installation-and-configuration-of-tpot-honeypot)
+- [Introduction to Tpot CE Honeypot](#introduction-to-tpot-ce-honeypot)
 - [Implementation and Mitre Engage Expose Goals](#implementation-and-mitre-engage-expose-goals)
   - [1. Network Monitoring (ID: EAC0002) using Suricata](#1-network-monitoring-id-eac0002-using-suricata)
   - [2. System Activity Monitoring (ID: EAC0003) using Sysmon](#2-system-activity-monitoring-id-eac0003-using-sysmon)
@@ -22,6 +22,7 @@ This repository serves as the documentation and code repository for the Internat
 - [Integrating All Mitre Engage Expose Goals in Wazuh](#integrating-all-mitre-engage-expose-goals-in-wazuh)
 - [Generating Alerts for All Mitre Engage Expose Goals in Wazuh Dashboard](#generating-alerts-for-all-mitre-engage-expose-goals-in-wazuh-dashboard)
 - [Python Code to Automate Sending Alerts to Email](#python-code-to-automate-sending-alerts-to-email)
+- [Findings and Analysis](#findings-and-analysis)
 - [Acknowledgment](#acknowledgment)
 - 
 ## Internship Goals
@@ -46,14 +47,33 @@ MITRE Engage combines several active defense types, including basic cyber defens
 To read more on Mitre engage [Click Here](https://github.com/sandxxax/IIPP-Internship/blob/main/Mitre%20Engage/README.md) 
 
 
-
 ## Tools Used
 
-...
+The following tools were employed during the internship:
 
-## Installation and Configuration of Tpot Honeypot
+- **Tpot Honeypot:** An all-in-one multi honeypot platform.
+- **Suricata:** Open-source IDS/IPS and network security monitoring engine.
+- **Sysmon:** System activity monitoring tool designed to capture and log detailed information about various events occurring within an operating environment.
+- **VirusTotal:** Online platform for malware analysis and detection.
+- **YARA Rules** YARA rules are created to identify and classify malware or other types of malicious activities based on specified patterns
+- **Wazuh:** Open-source security information and event management (SIEM) tool.
 
-Tpot Honeypot is a versatile tool designed to simplify the deployment and management of honeypots. Below are the steps to install and configure Tpot Honeypot:
+
+## Introduction to Tpot CE Honeypot
+
+### Honeypot:
+A honeypot is a security mechanism that creates a virtual trap to lure attackers. An intentionally compromised computer system allows attackers to exploit vulnerabilities so that we can study them to improve our security policies. We can apply a honeypot to any computing resource from software and networks to file servers and routers.
+
+Honeypots are a type of deception technology that allows us to understand attacker behavior patterns. Security teams can use honeypots to investigate cybersecurity breaches to collect intel on how cybercriminals operate. They also reduce the risk of false positives, when compared to traditional cybersecurity measures, because they are unlikely to attract legitimate activity.
+Honeypots vary based on design and deployment models, but they are all decoys intended to look like legitimate, vulnerable systems to attract cybercriminals.<br>
+**To learn more on what honeypots are [Click Here](https://www.crowdstrike.com/cybersecurity-101/honeypots-in-cybersecurity-explained/)**
+
+**Tpot Honeypot** is a versatile tool designed to simplify the deployment and management of honeypots.It is the all in one, optionally distributed, multiarch (amd64, arm64) honeypot plattform, supporting 20+ honeypots and countless visualization options using the Elastic Stack, along with animated live attack maps and lots of security tools to further improve the deception experience.
+
+To harness the power of T-Pot, ensure our system meets the prerequisites, requiring a minimum of 8-16 GB RAM, 128 GB of free disk space, and a reliable internet connection for seamless installation. Operating on Debian 11 (Bullseye) Netinstaller, we leverage the efficiency of Docker and Docker Compose, enabling the concurrent execution of multiple tools. Our comprehensive platform boasts a diverse array of honeypots, integrates essential tools like CyberChef and Spiderfoot, and incorporates Network Security Monitoring (NSM) components such as Suricata for robust threat detection. Our technical architecture strategically combines Elastic Stack, Docker, and an array of security tools, enhancing the overall deception experience.
+
+**Dive into this documentation for in-depth insights into system requirements, installation and congiguration of T-pot CE honeypot in our environment [Click Here]()**
+
 
 1. **Clone Tpot Repository:**
    ```bash
@@ -123,29 +143,6 @@ Now, Tpot Honeypot is installed and running. You can access the Tpot web interfa
 
 ## Acknowledgment
 
-...
-
-You can find the code related to this project [here](/code).
-
-- [Project Structure](#project-structure)
-- [Goals](#goals)
-- [Tools Used](#tools-used)
-- [Implementation Details](#implementation-details)
-  - [1. Network Monitoring (ID: EAC0002) using Suricata](#1-network-monitoring-id-eac0002-using-suricata)
-  - [2. System Activity Monitoring (ID: EAC0003) using Sysmon](#2-system-activity-monitoring-id-eac0003-using-sysmon)
-  - [3. Malware Detonation (ID: EAC0013) using VirusTotal](#3-malware-detonation-id-eac0013-using-virustotal)
-  - [4. Network Analysis (ID: EAC0004) using Suricata](#4-network-analysis-id-eac0004-using-suricata)
-- [Findings and Analysis](#findings-and-analysis)
-- [Acknowledgments](#acknowledgments)
-- [License](#license)
-
-## Project Structure
-
-The repository is organized as follows:
-
-- **docs/**: Contains the detailed report in markdown format.
-- **code/**: Includes the code implementations and configurations.
-- **figures/**: Stores visual aids and screenshots used in the report.
 
 ## Tools Used
 
