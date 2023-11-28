@@ -10,6 +10,112 @@ This repository serves as the documentation and code repository for the Internat
 
 - [Project Structure](#project-structure)
 - [Goals](#goals)
+- [Introduction to MITRE Engage](#introduction-to-mitre-engage)
+- [Tools Used](#tools-used)
+- [Installation and Configuration of Tpot Honeypot](#installation-and-configuration-of-tpot-honeypot)
+- [Implementation and Mitre Engage Expose Goals](#implementation-and-mitre-engage-expose-goals)
+  - [1. Network Monitoring (ID: EAC0002) using Suricata](#1-network-monitoring-id-eac0002-using-suricata)
+  - [2. System Activity Monitoring (ID: EAC0003) using Sysmon](#2-system-activity-monitoring-id-eac0003-using-sysmon)
+  - [3. Malware Detonation (ID: EAC0013) using VirusTotal](#3-malware-detonation-id-eac0013-using-virustotal)
+  - [4. Network Analysis (ID: EAC0004) using Suricata](#4-network-analysis-id-eac0004-using-suricata)
+- [Introduction to Wazuh](#introduction-to-wazuh)
+- [Deploying Wazuh as an Agent in Tpot Honeypot and Integrating with Kibana Dashboard](#deploying-wazuh-as-an-agent-in-tpot-honeypot-and-integrating-with-kibana-dashboard)
+- [Integrating All Mitre Engage Expose Goals in Wazuh](#integrating-all-mitre-engage-expose-goals-in-wazuh)
+- [Generating Alerts for All Mitre Engage Expose Goals in Wazuh Dashboard](#generating-alerts-for-all-mitre-engage-expose-goals-in-wazuh-dashboard)
+- [Python Code to Automate Sending Alerts to Email](#python-code-to-automate-sending-alerts-to-email)
+- [Acknowledgments](#acknowledgments)
+
+## Project Structure
+- [Python Code to Automate Sending Alerts to Email](#python-code-to-automate-sending-alerts-to-email)
+
+## Introduction to MITRE Engage
+
+MITRE Engage is a community-driven platform designed to bring together practitioners, organizations, and researchers to collaboratively address challenges in cybersecurity. It provides a framework for implementing specific actions, known as goals, to improve security postures and enhance collective defense mechanisms.
+
+## Tools Used
+
+...
+
+## Installation and Configuration of Tpot Honeypot
+
+Tpot Honeypot is a versatile tool designed to simplify the deployment and management of honeypots. Below are the steps to install and configure Tpot Honeypot:
+
+1. **Clone Tpot Repository:**
+   ```bash
+   git clone https://github.com/telekom-security/tpotce.git
+   ```
+
+2. **Navigate to Tpot Directory:**
+   ```bash
+   cd tpotce
+   ```
+
+3. **Run Install Script:**
+   ```bash
+   ./install.sh
+   ```
+
+4. **Follow On-screen Instructions:**
+   The installation script will guide you through the configuration process. Ensure to provide the necessary information when prompted.
+
+5. **Start Tpot:**
+   ```bash
+   ./start.sh
+
+Now, Tpot Honeypot is installed and running. You can access the Tpot web interface to monitor and analyze the honeypot's activities.
+
+## Implementation and Mitre Engage Expose Goals
+
+### 1. Network Monitoring (ID: EAC0002) using Suricata
+
+...
+
+### 2. System Activity Monitoring (ID: EAC0003) using Sysmon
+
+...
+
+### 3. Malware Detonation (ID: EAC0013) using VirusTotal
+
+...
+
+### 4. Network Analysis (ID: EAC0004) using Suricata
+
+...
+
+## Introduction to Wazuh
+
+...
+
+## Deploying Wazuh as an Agent in Tpot Honeypot and Integrating with Kibana Dashboard
+
+...
+
+## Integrating All Mitre Engage Expose Goals in Wazuh
+
+...
+
+## Generating Alerts for All Mitre Engage Expose Goals in Wazuh Dashboard
+
+...
+
+## Python Code to Automate Sending Alerts to Email for Suricata Alerts
+
+...
+
+## Findings and Analysis
+
+...
+
+## Acknowledgments
+
+...
+
+## Code
+
+You can find the code related to this project [here](/code).
+
+- [Project Structure](#project-structure)
+- [Goals](#goals)
 - [Tools Used](#tools-used)
 - [Implementation Details](#implementation-details)
   - [1. Network Monitoring (ID: EAC0002) using Suricata](#1-network-monitoring-id-eac0002-using-suricata)
@@ -133,16 +239,7 @@ Correlation with Wazuh:**
 #### Code Snippets
 Code snippets related to Suricata rule configuration and integration with Wazuh can be found in the [code/](./code/) directory.
 
-## Findings and Analysis
-
-The implementation of MITRE Engage 'Expose' goal actions provided valuable insights into potential adversarial behaviors. A detailed analysis of findings is provided in the [report](./docs/Final_Report.md).
-
 ## Acknowledgments
 
 I would like to express my gratitude to Prof. Ren-Hung Hwang, the ANT Lab, and NYCU AI College for the guidance and support throughout the internship. Special thanks to my lab members and seniors for their assistance.
 
-## License
-
-This project is licensed under the [MIT License](./LICENSE).
-
-This should provide an even more granular breakdown of each section, offering detailed insights into the steps taken during the internship. Feel free to adjust it further based on your specific experiences and details.
