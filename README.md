@@ -43,7 +43,9 @@ MITRE Engage is a framework for discussing and planning adversary engagement, de
 
 MITRE Engage combines several active defense types, including basic cyber defensive actions alongside adversary engagement and cyber deception operations. Together, these defenses enable organizations to counter attacks while also obtaining additional information about the adversary. This intelligence can help organizations better prepare for future attacks.<br>
 
-To read more on Mitre engage[Click Here(https://github.com/sandxxax/IIPP-Internship/blob/main/Mitre%20Engage/README.md)] [Click Here](Mitre Engage/README.md)
+To read more on Mitre engage[Click Here(https://github.com/sandxxax/IIPP-Internship/blob/main/Mitre%20Engage/README.md)] 
+[Link to Subfolder README](MitreEngage/README.md)
+
 
 
 ## Tools Used
