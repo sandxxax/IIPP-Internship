@@ -73,7 +73,7 @@ To learn more on what honeypots are?  [Click Here](https://github.com/sandxxax/I
 
 To harness the power of T-Pot, ensure our system meets the prerequisites, requiring a minimum of 8-16 GB RAM, 128 GB of free disk space, and a reliable internet connection for seamless installation. Operating on Debian 11 (Bullseye) Netinstaller, we leverage the efficiency of Docker and Docker Compose, enabling the concurrent execution of multiple tools. Our comprehensive platform boasts a diverse array of honeypots, integrates essential tools like CyberChef and Spiderfoot, and incorporates Network Security Monitoring (NSM) components such as Suricata for robust threat detection. Our technical architecture strategically combines Elastic Stack, Docker, and an array of security tools, enhancing the overall deception experience.
 
-**Dive into this documentation for in-depth insights into system requirements, installation and congiguration of T-pot CE honeypot in our environment  [Click Here]()**
+Dive into this documentation for in-depth insights into system requirements, installation and congiguration of T-pot CE honeypot in our environment  [Click Here](https://github.com/sandxxax/IIPP-Internship/tree/main/T-pot%20Honeypot%20CE#readme)
 
 ## Implementation and Mitre Engage Expose Goals
 
