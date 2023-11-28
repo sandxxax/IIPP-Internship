@@ -69,7 +69,8 @@ Honeypots vary based on design and deployment models, but they are all decoys in
 
 To learn more on what honeypots are?  [Click Here](https://github.com/sandxxax/IIPP-Internship/tree/main/Honeypot#readme)
 
-**Tpot Honeypot** is a versatile tool designed to simplify the deployment and management of honeypots.It is the all in one, optionally distributed, multiarch (amd64, arm64) honeypot plattform, supporting 20+ honeypots and countless visualization options using the Elastic Stack, along with animated live attack maps and lots of security tools to further improve the deception experience.
+### Tpot Honeypot CE:
+Tpot Honeypot is a versatile tool designed to simplify the deployment and management of honeypots.It is the all in one, optionally distributed, multiarch (amd64, arm64) honeypot plattform, supporting 20+ honeypots and countless visualization options using the Elastic Stack, along with animated live attack maps and lots of security tools to further improve the deception experience.
 
 To harness the power of T-Pot, ensure our system meets the prerequisites, requiring a minimum of 8-16 GB RAM, 128 GB of free disk space, and a reliable internet connection for seamless installation. Operating on Debian 11 (Bullseye) Netinstaller, we leverage the efficiency of Docker and Docker Compose, enabling the concurrent execution of multiple tools. Our comprehensive platform boasts a diverse array of honeypots, integrates essential tools like CyberChef and Spiderfoot, and incorporates Network Security Monitoring (NSM) components such as Suricata for robust threat detection. Our technical architecture strategically combines Elastic Stack, Docker, and an array of security tools, enhancing the overall deception experience.
 
