@@ -66,13 +66,14 @@ A honeypot is a security mechanism that creates a virtual trap to lure attackers
 
 Honeypots are a type of deception technology that allows us to understand attacker behavior patterns. Security teams can use honeypots to investigate cybersecurity breaches to collect intel on how cybercriminals operate. They also reduce the risk of false positives, when compared to traditional cybersecurity measures, because they are unlikely to attract legitimate activity.
 Honeypots vary based on design and deployment models, but they are all decoys intended to look like legitimate, vulnerable systems to attract cybercriminals.<br>
-**To learn more on what honeypots are [Click Here](https://www.crowdstrike.com/cybersecurity-101/honeypots-in-cybersecurity-explained/)**
+
+#### To learn more on what honeypots are?  [Click Here](https://www.crowdstrike.com/cybersecurity-101/honeypots-in-cybersecurity-explained/)
 
 **Tpot Honeypot** is a versatile tool designed to simplify the deployment and management of honeypots.It is the all in one, optionally distributed, multiarch (amd64, arm64) honeypot plattform, supporting 20+ honeypots and countless visualization options using the Elastic Stack, along with animated live attack maps and lots of security tools to further improve the deception experience.
 
 To harness the power of T-Pot, ensure our system meets the prerequisites, requiring a minimum of 8-16 GB RAM, 128 GB of free disk space, and a reliable internet connection for seamless installation. Operating on Debian 11 (Bullseye) Netinstaller, we leverage the efficiency of Docker and Docker Compose, enabling the concurrent execution of multiple tools. Our comprehensive platform boasts a diverse array of honeypots, integrates essential tools like CyberChef and Spiderfoot, and incorporates Network Security Monitoring (NSM) components such as Suricata for robust threat detection. Our technical architecture strategically combines Elastic Stack, Docker, and an array of security tools, enhancing the overall deception experience.
 
-**Dive into this documentation for in-depth insights into system requirements, installation and congiguration of T-pot CE honeypot in our environment [Click Here]()**
+**Dive into this documentation for in-depth insights into system requirements, installation and congiguration of T-pot CE honeypot in our environment  [Click Here]()**
 
 
 1. **Clone Tpot Repository:**
