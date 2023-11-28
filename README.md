@@ -67,7 +67,7 @@ A honeypot is a security mechanism that creates a virtual trap to lure attackers
 Honeypots are a type of deception technology that allows us to understand attacker behavior patterns. Security teams can use honeypots to investigate cybersecurity breaches to collect intel on how cybercriminals operate. They also reduce the risk of false positives, when compared to traditional cybersecurity measures, because they are unlikely to attract legitimate activity.
 Honeypots vary based on design and deployment models, but they are all decoys intended to look like legitimate, vulnerable systems to attract cybercriminals.<br>
 
-#### To learn more on what honeypots are?  [Click Here](https://www.crowdstrike.com/cybersecurity-101/honeypots-in-cybersecurity-explained/)
+#### To learn more on what honeypots are?  [Click Here](https://github.com/sandxxax/IIPP-Internship/tree/main/Honeypot#readme)
 
 **Tpot Honeypot** is a versatile tool designed to simplify the deployment and management of honeypots.It is the all in one, optionally distributed, multiarch (amd64, arm64) honeypot plattform, supporting 20+ honeypots and countless visualization options using the Elastic Stack, along with animated live attack maps and lots of security tools to further improve the deception experience.
 
