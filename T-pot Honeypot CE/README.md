@@ -6,40 +6,40 @@ T-Pot is based on the Debian 11 (Bullseye) Netinstaller and utilizes docker and 
 
 ### T-Pot offers docker images for the following honeypots ...
 
-**adbhoney,<br>
-ciscoasa,<br>
-citrixhoneypot,<br>
-conpot,<br>
-cowrie,<br>
-ddospot,<br>
-dicompot,<br>
-dionaea,<br>
-elasticpot,<br>
-endlessh,<br>
-glutton,<br>
-heralding,<br>
-hellpot,<br>
-honeypots,<br>
-honeytrap,<br>
-ipphoney,<br>
-log4pot,<br>
-mailoney,<br>
-medpot,<br>
-redishoneypot,<br>
-sentrypeer,<br>
-snare,<br>
+**adbhoney,
+ciscoasa,
+citrixhoneypot,
+conpot,
+cowrie,
+ddospot,
+dicompot,
+dionaea,
+elasticpot,
+endlessh,
+glutton,
+heralding,
+hellpot,
+honeypots,
+honeytrap,
+ipphoney,
+log4pot,
+mailoney,
+medpot,
+redishoneypot,
+sentrypeer,
+snare,
 tanner<br>
 ... alongside the following tools ...**
 
-**Cockpit** for a lightweight and secure WebManagement and WebTerminal.
-**Cyberchef** a web app for encryption, encoding, compression and data analysis.
-**Elastic Stack** to beautifully visualize all the events captured by T-Pot.
-**Elasticvue** a web front end for browsing and interacting with an Elasticsearch cluster.
-**Fatt** a pyshark based script for extracting network metadata and fingerprints from pcap files and live network traffic.
-**T-Pot-Attack-Map** a beautifully animated attack map for T-Pot.
-**P0f** is a tool for purely passive traffic fingerprinting.
-**Spiderfoot** an open source intelligence automation tool.
-**Suricata** a Network Security Monitoring engine.
+**Cockpit** for a lightweight and secure WebManagement and WebTerminal.<br>
+**Cyberchef** a web app for encryption, encoding, compression and data analysis.<br>
+**Elastic Stack** to beautifully visualize all the events captured by T-Pot.<br>
+**Elasticvue** a web front end for browsing and interacting with an Elasticsearch cluster.<br>
+**Fatt** a pyshark based script for extracting network metadata and fingerprints from pcap files and live network traffic.<br>
+**T-Pot-Attack-Map** a beautifully animated attack map for T-Pot.<br>
+**P0f** is a tool for purely passive traffic fingerprinting.<br>
+**Spiderfoot** an open source intelligence automation tool.<br>
+**Suricata** a Network Security Monitoring engine.<br>
 
 ## Technical Architecture
 
