@@ -15,7 +15,7 @@ This repository serves as the documentation and code repository for the Internat
 - [Implementation of Mitre Engage Expose Goals](#implementation-of-mitre-engage-expose-goals)
   - [1. Network Monitoring (ID: EAC0002) using Suricata](#1-network-monitoring-id-eac0002-using-suricata)
   - [2. System Activity Monitoring (ID: EAC0003) using Sysmon](#2-system-activity-monitoring-id-eac0003-using-sysmon)
-  - [3. Malware Detonation (ID: EAC0013) using VirusTotal](#3-malware-detonation-id-eac0013-using-virustotal)
+  - [3. Malware Detonation (ID: EAC0013) using VirusTotal and Yara Rules](#3-malware-detonation-id-eac0013-using-virustotal-and-yara-rules)
   - [4. Network Analysis (ID: EAC0004) using Suricata](#4-network-analysis-id-eac0004-using-suricata)
 - [Introduction to Wazuh](#introduction-to-wazuh)
 - [Deploying Wazuh as an Agent in Tpot Honeypot and Integrating with Kibana Dashboard](#deploying-wazuh-as-an-agent-in-tpot-honeypot-and-integrating-with-kibana-dashboard)
@@ -86,7 +86,7 @@ Dive into this documentation for in-depth insights into ***system requirements, 
 
 ...
 
-### 3. Malware Detonation (ID: EAC0013) using VirusTotal
+### 3. Malware Detonation (ID: EAC0013) using VirusTotal and Yara Rules
 
 ...
 
