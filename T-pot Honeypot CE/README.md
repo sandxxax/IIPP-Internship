@@ -6,29 +6,29 @@ T-Pot is based on the Debian 11 (Bullseye) Netinstaller and utilizes docker and 
 
 ### T-Pot offers docker images for the following honeypots ...
 
-**adbhoney,
-ciscoasa,
-citrixhoneypot,
-conpot,
-cowrie,
-ddospot,
-dicompot,
-dionaea,
-elasticpot,
-endlessh,
-glutton,
-heralding,
-hellpot,
-honeypots,
-honeytrap,
-ipphoney,
-log4pot,
-mailoney,
-medpot,
-redishoneypot,
-sentrypeer,
-snare,
-tanner
+**adbhoney,<br>
+ciscoasa,<br>
+citrixhoneypot,<br>
+conpot,<br>
+cowrie,<br>
+ddospot,<br>
+dicompot,<br>
+dionaea,<br>
+elasticpot,<br>
+endlessh,<br>
+glutton,<br>
+heralding,<br>
+hellpot,<br>
+honeypots,<br>
+honeytrap,<br>
+ipphoney,<br>
+log4pot,<br>
+mailoney,<br>
+medpot,<br>
+redishoneypot,<br>
+sentrypeer,<br>
+snare,<br>
+tanner<br>
 ... alongside the following tools ...**
 
 **Cockpit** for a lightweight and secure WebManagement and WebTerminal.
@@ -153,6 +153,8 @@ If we want to modify T-Pot for your environment or take control of the process, 
    ```
 3. After a successful build, you will find the ISO image `tpot_[amd64,arm64].iso` along with a SHA256 checksum `tpot_[amd64,arm64].sha256` based on your architecture choice in your folder.
 
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/2238aaea-3fec-4d57-b2db-52a83651ca17)
+
 ## Post Install
 
 In some cases, it is necessary to install T-Pot after you installed Debian. For example, your provider does not offer an ISO-based installation, you need special drivers for your hardware, or you want to experiment with ARM64 hardware not supported by the ISO image. In that case, you can clone the T-Pot repository on your own. Make sure you understand the different user types before setting up your OS.
@@ -187,36 +189,81 @@ cp tpot.conf.dist tpot.conf
 ```
 Adjust the configuration to suit the needs. The installer will run automatically.
 
+## First Start
+Once the T-Pot Installer successfully finishes, the system will automatically reboot and you will be presented with the T-Pot login screen. Logins are according to the User Types:
 
+- user: [tsec or <os_username>]
+- pass: [password]
+You can login from your browser and access Cockpit: https://<your.ip>:64294 or via SSH to access the command line: ssh -l [tsec,<os_username>] -p 64295 <your.ip>:
 
+- user: [tsec or <os_username>]
+- pass: [password]
+You can also login from your browser and access the Nginx (T-Pot Web UI and tools): https://<your.ip>:64297
 
+- user: [<web_user>]
+- pass: [password]
 
+  ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/60bc755d-d4cc-4441-b5c2-2bd6e8ee4568)
 
+  ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/e5135781-82f7-472f-b4e5-c81796e6cc05)
 
+  ## Attack Map
+  On the T-Pot Landing Page just click on Attack Map and you will be forwarded to the Attack Map.
 
+ Since the Attack Map utilizes web sockets we need to re-enter the  <web_user> credentials.
+ 
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/52d9f843-ba72-4510-af74-5dfc41d920b8)
 
+## SSH and Cockpit
+According to the User Types you can login from your browser and access Cockpit: https://<your.ip>:64294 or via SSH to access the command line: ssh -l [tsec,<os_username>] -p 64295 <your.ip>:
 
+user: [tsec or <os_username>]
+pass: [password]
+Especially if you do not have a SSH client at hand and still want to access the machine with a command line option you can do so by accessing Cockpit. You can also add two factor authentication to Cockpit just by running 2fa.sh on the command line.
 
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/6b1eb9d1-1f7c-4bdf-a0f4-1f197bfac921)
 
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/ea8f4eac-562d-4b32-86d7-b03065edf7bb)
 
+## Kibana Dashboard
+On the T-Pot Landing Page just click on Kibana and you will be forwarded to Kibana. You can select from a large variety of dashboards and visualizations all tailored to the T-Pot supported honeypots.
 
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/b5e1f601-0e16-4284-a9d6-189bb52f27c7)
 
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/f39c9f43-2210-4608-b09a-04f6cb70e600)
 
+We can even see the brute force passwords which have been tried to gain unauthorised access.
 
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/8d715bda-ac3b-4401-8ab6-8e5115a68a59)
 
+Let's do Nmap Scan to see how our honeypot looks to the attacker when he does N-map scan
 
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/acb5a09c-c2bf-4a45-9152-7c3533513398)
 
+We can see that the attacker finds so many open ports, so he will be alerted that it is a honeypot!!!<br>
 
+So what can we do to make it look like a actual system?
 
+Lets modify the configuration file and comment the honeypot which we feel not necessary so the we can reduce the number of ports that are open.
 
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/6f9d38b9-d238-49cd-9ad6-367de6f296f8)
 
+Let us keep Cowrie honeypot as it is needed to implement our Mitre Enagage goals.
 
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/cd7adc11-63b0-4ea7-b68e-b49072dd7633)
 
+We can see adversaries trying to attack our cowrie honeypot through port 23 which is used for telnet:
 
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/b1a368f7-cfc3-464e-aa58-e97dfba63fb0)
 
+We can go to networking in our T-pot cockpit to analyse the ports and interfaces used by various honeypots:
+here we can see that our cowrie is using 172.18.0.1/16 as ip address and br-8b045e5dO8eb interface
 
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/0530d244-8dc0-4c18-83e4-b9ed018c4014)
 
+We have successfully installed and configured our T-pot honeypot!!<br>
 
+Now we can implement our Mitre engage goals in our T-pot Honeypot, To continue reading on implementation of Mitre enage goals [Click Here]()
 
 
 
@@ -239,40 +286,4 @@ Adjust the configuration to suit the needs. The installer will run automatically
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-1. **Clone Tpot Repository:**
-   ```bash
-   git clone https://github.com/telekom-security/tpotce.git
-   ```
-
-2. **Navigate to Tpot Directory:**
-   ```bash
-   cd tpotce
-   ```
-
-3. **Run Install Script:**
-   ```bash
-   ./install.sh
-   ```
-
-4. **Follow On-screen Instructions:**
-   The installation script will guide you through the configuration process. Ensure to provide the necessary information when prompted.
-
-5. **Start Tpot:**
-   ```bash
-   ./start.sh
-
-Now, Tpot Honeypot is installed and running. You can access the Tpot web interface to monitor and analyze the honeypot's activities.
 
