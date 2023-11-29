@@ -12,7 +12,7 @@ This repository serves as the documentation and code repository for the Internat
 - [Introduction to MITRE Engage](#introduction-to-mitre-engage)
 - [Tools Used](#tools-used)
 - [Introduction to Tpot CE Honeypot](#introduction-to-tpot-ce-honeypot)
-- [Implementation and Mitre Engage Expose Goals](#implementation-and-mitre-engage-expose-goals)
+- [Implementation of Mitre Engage Expose Goals](#implementation-of-mitre-engage-expose-goals)
   - [1. Network Monitoring (ID: EAC0002) using Suricata](#1-network-monitoring-id-eac0002-using-suricata)
   - [2. System Activity Monitoring (ID: EAC0003) using Sysmon](#2-system-activity-monitoring-id-eac0003-using-sysmon)
   - [3. Malware Detonation (ID: EAC0013) using VirusTotal](#3-malware-detonation-id-eac0013-using-virustotal)
@@ -76,7 +76,7 @@ To harness the power of T-Pot, ensure our system meets the prerequisites, requir
 
 Dive into this documentation for in-depth insights into ***system requirements, installation and congiguration of T-pot CE honeypot*** in our environment  [Click Here](https://github.com/sandxxax/IIPP-Internship/tree/main/T-pot%20Honeypot%20CE#readme)
 
-## Implementation and Mitre Engage Expose Goals
+## Implementation of Mitre Engage Expose Goals
 
 ### 1. Network Monitoring (ID: EAC0002) using Suricata
 
