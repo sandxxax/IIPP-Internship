@@ -189,8 +189,9 @@ cp tpot.conf.dist tpot.conf
 ```
 Adjust the configuration to suit the needs. The installer will run automatically.
 
-- The individual Dockerfile and configuration files of cowrie honeypot is located in [this folder](https://github.com/sandxxax/IIPP-Internship/tree/main/T-pot%20Honeypot%20CE/cowrie).
-
+- The individual Dockerfile and configuration files of cowrie honeypot is located in [this folder](https://github.com/telekom-security/tpotce/tree/02098f9b769dc7d6c8ac3c61538b969fa539016c/docker)
+https://github.com/sandxxax/IIPP-Internship/tree/main/T-pot%20Honeypot%20CE/cowrie).
+https://github.com/telekom-security/tpotce/tree/02098f9b769dc7d6c8ac3c61538b969fa539016c/docker
 ## First Start
 Once the T-Pot Installer successfully finishes, the system will automatically reboot and you will be presented with the T-Pot login screen. Logins are according to the User Types:
 
