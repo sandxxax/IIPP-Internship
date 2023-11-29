@@ -208,9 +208,9 @@ You can also login from your browser and access the Nginx (T-Pot Web UI and tool
   ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/e5135781-82f7-472f-b4e5-c81796e6cc05)
 
   ## Attack Map
-  On the T-Pot Landing Page just click on Attack Map and you will be forwarded to the Attack Map.
+On the T-Pot Landing Page just click on Attack Map and you will be forwarded to the Attack Map.
 
- Since the Attack Map utilizes web sockets we need to re-enter the  <web_user> credentials.
+Since the Attack Map utilizes web sockets we need to re-enter the  <web_user> credentials.
  
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/52d9f843-ba72-4510-af74-5dfc41d920b8)
 
@@ -236,7 +236,7 @@ We can even see the brute force passwords which have been tried to gain unauthor
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/8d715bda-ac3b-4401-8ab6-8e5115a68a59)
 
-Let's do Nmap Scan to see how our honeypot looks to the attacker when he does N-map scan
+Let's do Nmap Scan to see how our honeypot looks to the attacker when he does N-map scan!!
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/acb5a09c-c2bf-4a45-9152-7c3533513398)
 
