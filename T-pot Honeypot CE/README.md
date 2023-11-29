@@ -84,7 +84,7 @@ All T-Pot installations will require,
 - a working, non-proxied, internet connection for an installation to succeed.
 
 ## Required Ports
-Besides the ports generally needed by the OS, i.e. obtaining a DHCP lease, DNS, etc. T-Pot will require the following ports for incoming / outgoing connections. Review the [T-Pot Architecture](![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/1eb6d50a-2667-4007-9ada-8c6806658732)) for a visual representation. Also some ports will show up as duplicates, which is fine since used in different editions.
+Besides the ports generally needed by the OS, i.e. obtaining a DHCP lease, DNS, etc. T-Pot will require the following ports for incoming / outgoing connections. Review the [T-Pot Architecture](https://github.com/telekom-security/tpotce/blob/master/doc/architecture.png) for a visual representation. Also some ports will show up as duplicates, which is fine since used in different editions.
 
 | Port          | Protocol | Direction | Description                                               |
 |--------------|----------|------------|-----------------------------------------------------------|
@@ -116,6 +116,76 @@ Besides the ports generally needed by the OS, i.e. obtaining a DHCP lease, DNS, 
 | 5060         | udp      | incoming   | Honeypot: SentryPeer                                         |
 | 80           | tcp      | incoming   | Honeypot: Snare (Tanner)                                    |
 
+Ports and availability of SaaS services may vary based on your geographical location. Also during the first install outgoing ICMP / TRACEROUTE is required additionally to find the closest and fastest mirror to us.
+
+For some honeypots to reach full functionality (i.e. Cowrie or Log4Pot) outgoing connections are necessary as well, in order for them to download the attackers malware.
+
+# Installation
+The T-Pot installation is offered in different variations. While the overall installation of T-Pot is straightforward it heavily depends on a working, non-proxied (unless you made modifications) up and running internet connection (also see required outgoing ports). If these conditions are not met the installation will fail! either during the execution of the Debian Installer, after the first reboot before the T-Pot Installer is starting up or while the T-Pot installer is trying to download all the necessary dependencies.
+
+### ISO Based Installation
+
+Installing T-Pot based on an ISO image follows the routine of any other ISO-based Linux distribution. You can either run it on hardware by copying the ISO file to a USB drive (e.g., with Etcher) or mount the ISO image as a virtual drive in one of the supported hypervisors.
+
+#### Download ISO Image
+
+On the [T-Pot release page](https://github.com/telekom-security/tpotce/releases), we will find two prebuilt ISO images for download: `tpot_amd64.iso` and `tpot_arm64.iso`. Both are based on Debian 11 for x64 / arm64 based hardware.
+
+#### Creating our own ISO Image
+
+If we want to modify T-Pot for your environment or take control of the process, you can use the ISO Creator to build your own ISO image.
+
+**Requirements to create the ISO image:**
+- Debian 11 as the host system (others may work but remain untested)
+- 4GB of free RAM
+- 32GB of free storage
+- A working internet connection
+
+**Steps to create the ISO image:**
+1. Clone the repository and enter it.
+   ```bash
+   git clone https://github.com/telekom-security/tpotce
+   cd tpotce
+   ```
+2. Run `makeiso.sh` to build the ISO image. The script will download and install dependencies necessary to build the image. It will further download the Debian Netiso installer image (~50-150MB) on which T-Pot is based.
+   ```bash
+   sudo ./makeiso.sh
+   ```
+3. After a successful build, you will find the ISO image `tpot_[amd64,arm64].iso` along with a SHA256 checksum `tpot_[amd64,arm64].sha256` based on your architecture choice in your folder.
+
+## Post Install
+
+In some cases, it is necessary to install T-Pot after you installed Debian. For example, your provider does not offer an ISO-based installation, you need special drivers for your hardware, or you want to experiment with ARM64 hardware not supported by the ISO image. In that case, you can clone the T-Pot repository on your own. Make sure you understand the different user types before setting up your OS.
+
+### Download Debian Netinstall Image
+
+Since T-Pot is based on the Debian Netinstall Image (amd64, arm64), it is heavily recommended you use this image if possible. It is very lightweight and only offers to install core services.
+
+### Post Install User Method
+
+The post-install method must be executed by the root (sudo su -, su -). Follow these steps:
+
+```bash
+git clone https://github.com/telekom-security/tpotce
+cd tpotce/iso/installer/
+./install.sh --type=user
+```
+
+The installation will start, and you can proceed to the T-Pot Installer section.
+
+### Post-Install Auto Method
+
+You can also let the installer run automatically if you provide your own `tpot.conf`. An example is available in `tpotce/iso/installer/tpot.conf.dist`. This should make things easier if you want to automate the installation, for example, with Ansible.
+
+Follow these steps while adjusting `tpot.conf` to your needs:
+
+```bash
+git clone https://github.com/telekom-security/tpotce
+cd tpotce/iso/installer/
+cp tpot.conf.dist tpot.conf
+./install.sh --type=auto --conf=tpot.conf
+```
+Adjust the configuration to suit the needs. The installer will run automatically.
 
 
 
