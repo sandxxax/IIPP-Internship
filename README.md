@@ -13,10 +13,10 @@ This repository serves as the documentation and code repository for the Internat
 - [Tools Used](#tools-used)
 - [Introduction to Tpot CE Honeypot](#introduction-to-tpot-ce-honeypot)
 - [Implementation of Mitre Engage Expose Goals](#implementation-of-mitre-engage-expose-goals)
-  - [1. Network Monitoring (ID: EAC0002) using Suricata](#1-network-monitoring-id-eac0002-using-suricata)
-  - [2. System Activity Monitoring (ID: EAC0003) using Sysmon](#2-system-activity-monitoring-id-eac0003-using-sysmon)
-  - [3. Malware Detonation (ID: EAC0013) using VirusTotal and Yara Rules](#3-malware-detonation-id-eac0013-using-virustotal-and-yara-rules)
-  - [4. Network Analysis (ID: EAC0004) using Suricata](#4-network-analysis-id-eac0004-using-suricata)
+  - [1. Network Monitoring (ID: EAC0002)](#1-network-monitoring-id-eac0002)
+  - [2. System Activity Monitoring (ID: EAC0003)](#2-system-activity-monitoring-id-eac0003)
+  - [3. Malware Detonation (ID: EAC0013)](#3-malware-detonation-id-eac0013)
+  - [4. Network Analysis (ID: EAC0004)](#4-network-analysis-id-eac0004)
 - [Introduction to Wazuh](#introduction-to-wazuh)
 - [Deploying Wazuh as an Agent in Tpot Honeypot and Integrating with Kibana Dashboard](#deploying-wazuh-as-an-agent-in-tpot-honeypot-and-integrating-with-kibana-dashboard)
 - [Integrating All Mitre Engage Expose Goals in Wazuh](#integrating-all-mitre-engage-expose-goals-in-wazuh)
@@ -78,21 +78,46 @@ Dive into this documentation for in-depth insights into ***system requirements, 
 
 ## Implementation of Mitre Engage Expose Goals
 
-### 1. Network Monitoring (ID: EAC0002) using Suricata
+The 4 Mitre Engage Expose goals which I have implemented in my T-pot Honeypot includes:
 
-...
+#### 1. Network Monitoring
+#### 2. System Activity Monitoring 
+#### 3. Malware Detonation 
+#### 4. Network Analysis 
 
-### 2. System Activity Monitoring (ID: EAC0003) using Sysmon
+Let's review each of them individually:
 
-...
+### 1. Network Monitoring (ID: EAC0002):
+- Monitoring network traffic is a fundamental aspect of cybersecurity, involving the systematic observation and analysis of data exchanged within a network. The comprehensive practice encompasses the collection of server and firewall logs, which are then centralized for in-depth scrutiny. This centralized approach facilitates efficient and centralized analysis, allowing defenders to identify anomalous traffic patterns and activities that could signify the presence of adversaries. This process serves as a cornerstone for situational awareness, providing cybersecurity professionals with crucial insights into the dynamics of their network.
 
-### 3. Malware Detonation (ID: EAC0013) using VirusTotal and Yara Rules
+- Effective network monitoring requires meticulous pre-operational planning to ensure the comprehensive collection of critical network traffic. This planning is essential for creating a robust foundation that aids in the detection of unexpected outbound traffic and the identification of known adversary command and control (C2) protocols. By incorporating both automated tools and manual analysis, defenders can gain a nuanced understanding of network behavior, enabling them to discern normal activities from potentially malicious ones. This proactive approach to network monitoring not only enhances the ability to detect adversarial threats promptly but also strengthens the overall resilience of the cybersecurity infrastructure.
 
-...
+- To learn more on Network monitoring implementation in T-pot Honeypot [Click Here]()
 
-### 4. Network Analysis (ID: EAC0004) using Suricata
+### 2. System Activity Monitoring (ID: EAC0003):
+- System Activity Monitoring is a pivotal cybersecurity measure that involves collecting comprehensive system activity logs, offering a detailed account of user logins, actions, and various events within an environment. This proactive approach provides defenders with invaluable insights into potential adversary activities and the tools employed, forming a crucial aspect of threat detection and response. Snort and it’s usage in system monitoring  helped me understand the overall importance of this activity.
+  
+- The captured logs, when centralized for in-depth analysis, become a powerful tool in understanding and mitigating potential security threats. However, the effectiveness of this monitoring strategy relies on meticulous planning to strike a balance between the depth of data collection and avoiding data overload, ensuring that defenders can focus on relevant information without being overwhelmed.
+  
+- These system activity logs play a crucial role in enhancing situational awareness and operational safety. They contribute to a comprehensive understanding of adversary tactics, guiding the strategic selection of logs to monitor. The careful pre-operational environment setup is paramount to the success of system activity monitoring, as it ensures that the collected data is not only relevant but also manageable for analysis. By incorporating this measure, organizations can significantly strengthen their security posture, enabling a proactive response to potential threats and reinforcing the resilience of their cybersecurity infrastructure.
 
-...
+- To learn more on System Activity monitoring implementation in T-pot Honeypot [Click Here]()
+
+### 3. Malware Detonation (ID: EAC0013):
+- Malware Detonation is a strategic cybersecurity practice that involves the deliberate execution of malware within a controlled environment to analyze its functionality.This controlled setting allows for a detailed examination of the malware's behavior, providing security professionals with critical insights into its operations. The execution takes place under carefully defined objectives and safety protocols to ensure that the analysis remains secure and does not pose a threat to the overall environment. This proactive approach is instrumental in understanding the intricacies of various types of malwares, from their attack vectors to the potential impact on a system.
+
+- The execution environment for malware detonation can range from standard malware analysis tools to customized engagement setups, depending on the specific goals of the operation. The objectives of this process extend beyond mere analysis, as it can yield valuable new indicators of compromise (IOCs) that enhance threat intelligence. Additionally, it has the potential to reveal adversary tactics, providing defenders with actionable insights to fortify their security measures. In some cases, malware detonation can be leveraged as a disruptive measure, impeding the adversary's capabilities and thwarting their malicious activities.
+
+- By incorporating malware detonation into their cybersecurity arsenal, organizations can bolster their defenses and stay ahead of emerging threats in an ever-evolving digital landscape.
+
+-  To learn more on Malware Detonation implementation in T-pot Honeypot [Click Here]()
+
+### 4. Network Analysis (ID: EAC0004):
+- Network Analysis is a crucial component of cybersecurity that involves the thorough examination of network traffic to extract valuable intelligence on communications between systems. Malicious traffic analysis  is the critical aspect of this activity. The primary goal is to uncover potential adversary activities, such as command and control (C2) traffic or data exfiltration, which are indicative of malicious intent. This process requires capturing and scrutinizing network traffic, often necessitating the development of custom protocol decoder frameworks capable of handling complex encryption and proprietary protocols. While creating these decoders demands technical expertise, the insights gained from such efforts are invaluable in understanding and mitigating potential threats.
+  
+- The complexity of modern cybersecurity threats often requires advanced techniques for deciphering encrypted network data. Through network analysis, security professionals can employ custom decoders to decrypt network data, exposing adversary C2 actions or data exfiltration attempts. This level of insight not only aids in understanding communication channels used by adversaries but also enables defenders to manipulate data for strategic operational goals in the future. By investing in network analysis capabilities, organizations enhance their ability to detect, analyze, and respond to evolving cyber threats, fortifying their overall cybersecurity posture in an ever-changing digital landscape.
+
+-  To learn more on Network Analysis implementation in T-pot Honeypot [Click Here]()
 
 ## Introduction to Wazuh
 
