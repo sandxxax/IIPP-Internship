@@ -24,7 +24,7 @@ This repository serves as the documentation and code repository for the Internat
 - [Python Code to Automate Sending Alerts to Email](#python-code-to-automate-sending-alerts-to-email)
 - [Findings and Analysis](#findings-and-analysis)
 - [Acknowledgment](#acknowledgment)
-- 
+   
 ## Internship Goals
 
 The primary objectives of the internship were to explore, study, and implement actions defined under the MITRE Engage 'Expose' goal within the context of a Tpot CE Honeypot.
