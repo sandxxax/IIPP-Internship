@@ -256,8 +256,10 @@ We can see adversaries trying to attack our cowrie honeypot through port 23 whic
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/b1a368f7-cfc3-464e-aa58-e97dfba63fb0)
 
-We can go to networking in our T-pot cockpit to analyse the ports and interfaces used by various honeypots:
-here we can see that our cowrie is using 172.18.0.1/16 as ip address and br-8b045e5dO8eb interface
+We can go to networking in our T-pot cockpit to analyse the ports and interfaces used by various honeypots
+Here we can see that our cowrie is using:
+- 172.18.0.1/16 as ip address and
+-  br-8b045e5dO8eb as interface
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/0530d244-8dc0-4c18-83e4-b9ed018c4014)
 
