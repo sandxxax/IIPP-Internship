@@ -211,7 +211,7 @@ You can also login from your browser and access the Nginx (T-Pot Web UI and tool
 
   ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/e5135781-82f7-472f-b4e5-c81796e6cc05)
 
-  ## Attack Map
+## Attack Map
 On the T-Pot Landing Page just click on Attack Map and you will be forwarded to the Attack Map.
 
 Since the Attack Map utilizes web sockets we need to re-enter the  <web_user> credentials.
