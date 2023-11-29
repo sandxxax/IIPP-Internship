@@ -82,7 +82,7 @@ All T-Pot installations will require,
 
 - an IP address via DHCP
 - a working, non-proxied, internet connection for an installation to succeed.<br>
-The individual Dockerfile and configuration files of cowrie honeypot is located in [this folder](https://github.com/sandxxax/IIPP-Internship/tree/main/T-pot%20Honeypot%20CE/cowrie).
+
 ## Required Ports
 Besides the ports generally needed by the OS, i.e. obtaining a DHCP lease, DNS, etc. T-Pot will require the following ports for incoming / outgoing connections. Review the [T-Pot Architecture](https://github.com/telekom-security/tpotce/blob/master/doc/architecture.png) for a visual representation. Also some ports will show up as duplicates, which is fine since used in different editions.
 
@@ -188,6 +188,8 @@ cp tpot.conf.dist tpot.conf
 ./install.sh --type=auto --conf=tpot.conf
 ```
 Adjust the configuration to suit the needs. The installer will run automatically.
+
+- The individual Dockerfile and configuration files of cowrie honeypot is located in [this folder](https://github.com/sandxxax/IIPP-Internship/tree/main/T-pot%20Honeypot%20CE/cowrie).
 
 ## First Start
 Once the T-Pot Installer successfully finishes, the system will automatically reboot and you will be presented with the T-Pot login screen. Logins are according to the User Types:
