@@ -118,16 +118,19 @@ Let's review each of them individually:
 -  To learn more on Network Analysis implementation in T-pot Honeypot [Click Here]()
 
 ## Introduction to Wazuh
+Wazuh is an open-source security information and event management (SIEM) platform designed to enhance threat detection, intrusion detection, and response capabilities for organizations. Rooted in a robust combination of log analysis, intrusion detection, vulnerability detection, and security information management, Wazuh provides a comprehensive solution for monitoring and managing security events across an entire IT infrastructure. Originally developed as OSSEC-HIDS (Host-based Intrusion Detection System), Wazuh has evolved into a scalable and extensible platform that aids organizations in fortifying their cybersecurity posture.
 
-[Click Here](https://github.com/sandxxax/IIPP-Internship/blob/main/Wazuh/README.md)
+The core functionality of Wazuh revolves around its ability to collect, analyze, and correlate data from diverse security-related sources, such as logs, events, and configurations. With a focus on real-time threat detection and response, Wazuh helps organizations proactively identify and mitigate potential security incidents. Its open-source nature fosters community collaboration, enabling users to leverage a wealth of security expertise and contribute to the continuous improvement of the platform. Wazuh's user-friendly interface, coupled with its flexibility and powerful features, makes it a valuable asset for organizations seeking a robust and customizable solution to bolster their cybersecurity defenses.
+
+To learn more on Wazuh installation and configuration [Click Here](https://github.com/sandxxax/IIPP-Internship/blob/main/Wazuh/README.md)
 
 ## Deploying Wazuh as an Agent in Tpot Honeypot and Integrating with Kibana Dashboard
 
-...
+To learn more on Wazuh installation and configuration [Click Here](https://github.com/sandxxax/IIPP-Internship/blob/main/Wazuh/README.md)
+
 
 ## Integrating All Mitre Engage Expose Goals in Wazuh
 
-...
 
 ## Generating Alerts for All Mitre Engage Expose Goals in Wazuh Dashboard
 
