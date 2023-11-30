@@ -92,7 +92,7 @@ Let's review each of them individually:
 
 - Effective network monitoring requires meticulous pre-operational planning to ensure the comprehensive collection of critical network traffic. This planning is essential for creating a robust foundation that aids in the detection of unexpected outbound traffic and the identification of known adversary command and control (C2) protocols. By incorporating both automated tools and manual analysis, defenders can gain a nuanced understanding of network behavior, enabling them to discern normal activities from potentially malicious ones. This proactive approach to network monitoring not only enhances the ability to detect adversarial threats promptly but also strengthens the overall resilience of the cybersecurity infrastructure.
 
-- To learn more on Network monitoring implementation in T-pot Honeypot [Click Here]()
+- To learn more on Network monitoring implementation in T-pot Honeypot [Click Here](https://github.com/sandxxax/IIPP-Internship/edit/main/Implementation%20of%20Mitre%20Engage%20Expose%20Goals/Network%20Monitoring/README.md)
 
 ### 2. System Activity Monitoring (ID: EAC0003):
 - System Activity Monitoring is a pivotal cybersecurity measure that involves collecting comprehensive system activity logs, offering a detailed account of user logins, actions, and various events within an environment. This proactive approach provides defenders with invaluable insights into potential adversary activities and the tools employed, forming a crucial aspect of threat detection and response. Snort and it’s usage in system monitoring  helped me understand the overall importance of this activity.
