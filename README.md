@@ -143,8 +143,11 @@ Moreover, the integration of network analysis through Suricata into Wazuh signif
 To learn more how to integrate all goals in Wazuh [Click Here](https://github.com/sandxxax/IIPP-Internship/blob/main/Wazuh/README.md#integration-of-wazuh-unifying-all-goals-in-one-platform)
 
 ## Generating Alerts for All Mitre Engage Expose Goals in Wazuh Dashboard
+Creating a robust security posture involves aligning monitoring efforts with the MITRE ATT&CK Engage and Expose goals within the Wazuh Dashboard. By configuring Wazuh to generate alerts based on MITRE ATT&CK techniques associated with these goals, organizations can effectively detect and respond to potential threats targeting their environment. This proactive approach ensures that the Wazuh Dashboard becomes a powerful tool for identifying adversary tactics and techniques related to engaging and exposing targets, allowing security teams to stay one step ahead of sophisticated cyber threats.
 
-...
+Through the integration of MITRE ATT&CK Engage and Expose goals into Wazuh, security professionals gain a consolidated view of potential adversarial behaviors. This alignment not only enhances the detection capabilities of the security infrastructure but also provides a comprehensive understanding of how adversaries might engage with and expose vulnerabilities in the organization's network. Leveraging the MITRE ATT&CK framework within the Wazuh Dashboard enables security teams to create targeted and effective response strategies, reinforcing the overall cybersecurity defenses against a spectrum of sophisticated threats.
+
+To visualize the Alerts [Click Here](https://github.com/sandxxax/IIPP-Internship/blob/main/Wazuh/README.md#integration-of-wazuh-unifying-all-goals-in-one-platform)
 
 ## Python Code to Automate Sending Alerts to Email 
 
