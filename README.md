@@ -115,7 +115,7 @@ Let's review each of them individually:
   
 - The complexity of modern cybersecurity threats often requires advanced techniques for deciphering encrypted network data. Through network analysis, security professionals can employ custom decoders to decrypt network data, exposing adversary C2 actions or data exfiltration attempts. This level of insight not only aids in understanding communication channels used by adversaries but also enables defenders to manipulate data for strategic operational goals in the future. By investing in network analysis capabilities, organizations enhance their ability to detect, analyze, and respond to evolving cyber threats, fortifying their overall cybersecurity posture in an ever-changing digital landscape.
 
--  To learn more on Network Analysis implementation in T-pot Honeypot [Click Here]()
+-  To learn more on Network Analysis implementation in T-pot Honeypot [Click Here](https://github.com/sandxxax/IIPP-Internship/edit/main/Implementation%20of%20Mitre%20Engage%20Expose%20Goals/Network%20Analysis/README.md)
 
 ## Introduction to Wazuh
 Wazuh is an open-source security information and event management (SIEM) platform designed to enhance threat detection, intrusion detection, and response capabilities for organizations. Rooted in a robust combination of log analysis, intrusion detection, vulnerability detection, and security information management, Wazuh provides a comprehensive solution for monitoring and managing security events across an entire IT infrastructure. Originally developed as OSSEC-HIDS (Host-based Intrusion Detection System), Wazuh has evolved into a scalable and extensible platform that aids organizations in fortifying their cybersecurity posture.
