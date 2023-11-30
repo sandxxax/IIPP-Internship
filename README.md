@@ -101,7 +101,7 @@ Let's review each of them individually:
   
 - These system activity logs play a crucial role in enhancing situational awareness and operational safety. They contribute to a comprehensive understanding of adversary tactics, guiding the strategic selection of logs to monitor. The careful pre-operational environment setup is paramount to the success of system activity monitoring, as it ensures that the collected data is not only relevant but also manageable for analysis. By incorporating this measure, organizations can significantly strengthen their security posture, enabling a proactive response to potential threats and reinforcing the resilience of their cybersecurity infrastructure.
 
-- To learn more on System Activity monitoring implementation in T-pot Honeypot [Click Here]()
+- To learn more on System Activity monitoring implementation in T-pot Honeypot [Click Here](https://github.com/sandxxax/IIPP-Internship/edit/main/Implementation%20of%20Mitre%20Engage%20Expose%20Goals/System%20Activity%20Monitoring/README.md)
 
 ### 3. Malware Detonation (ID: EAC0013):
 - Malware Detonation is a strategic cybersecurity practice that involves the deliberate execution of malware within a controlled environment to analyze its functionality.This controlled setting allows for a detailed examination of the malware's behavior, providing security professionals with critical insights into its operations. The execution takes place under carefully defined objectives and safety protocols to ensure that the analysis remains secure and does not pose a threat to the overall environment. This proactive approach is instrumental in understanding the intricacies of various types of malwares, from their attack vectors to the potential impact on a system.
