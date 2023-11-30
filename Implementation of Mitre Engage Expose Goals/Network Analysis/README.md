@@ -1,3 +1,13 @@
+# Network Analysis (ID: EAC0004):
+- Network Analysis is a crucial component of cybersecurity that involves the thorough examination of network traffic to extract valuable intelligence on communications between systems. Malicious traffic analysis  is the critical aspect of this activity. The primary goal is to uncover potential adversary activities, such as command and control (C2) traffic or data exfiltration, which are indicative of malicious intent. This process requires capturing and scrutinizing network traffic, often necessitating the development of custom protocol decoder frameworks capable of handling complex encryption and proprietary protocols. While creating these decoders demands technical expertise, the insights gained from such efforts are invaluable in understanding and mitigating potential threats.
+  
+- The complexity of modern cybersecurity threats often requires advanced techniques for deciphering encrypted network data. Through network analysis, security professionals can employ custom decoders to decrypt network data, exposing adversary C2 actions or data exfiltration attempts. This level of insight not only aids in understanding communication channels used by adversaries but also enables defenders to manipulate data for strategic operational goals in the future. By investing in network analysis capabilities, organizations enhance their ability to detect, analyze, and respond to evolving cyber threats, fortifying their overall cybersecurity posture in an ever-changing digital landscape.
+
+## Network Analysis using Suricata:
+- Suricata, as a versatile and open-source threat detection engine, plays a pivotal role in network analysis by combining Intrusion Detection System (IDS), Intrusion Prevention System (IPS), and network security monitoring capabilities. Network analysis using Suricata involves scrutinizing network traffic in real-time, making it a powerful tool for identifying and mitigating potential security threats. The engine utilizes a rule-based language that employs anomaly detection, protocol analysis, and signature inspection methods to detect a wide range of malicious activities within network traffic.
+
+- One of Suricata's key strengths lies in its ability to operate as both an IDS and IPS, allowing organizations to actively monitor and prevent security incidents. Suricata can spot and alert administrators to various network-based attacks, including denial-of-service (DoS) attacks, distributed DoS (DDoS) attacks, Common Gateway Interface (CGI) attacks, buffer overflows, and stealth port scans. Its rule-based approach enables the definition of specific criteria for identifying malicious network activities, ensuring a tailored and adaptive defense against evolving threats. Additionally, Suricata supports multiple modes, such as packet sniffer for real-time traffic display, packet logger for network traffic debugging, and network intrusion detection to match network traffic against predefined signatures and take specified actions, providing organizations with a comprehensive solution for proactive network security analysis.
+
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/4840dac5-b70c-4507-aca8-16d2e6097e94)
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/4877b4c6-3071-477e-b69a-3987d5ba9d0c)
@@ -11,8 +21,6 @@
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/dcf710fc-6e9f-416d-9e2d-c5d3b57631af)
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/635e7a86-114e-49fa-ae76-6680dfaf1c1a)
-
-Let us view the GPL alert in Kibana Dash board
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/c63a30c2-9b2b-4f9b-92e7-6414ec47ab8a)
 
@@ -51,6 +59,4 @@ We can see that the emails are sent:
 We can see the email alerts generated:
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/b9100e35-a68b-4cf8-a669-aba54b930632)
-
-![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/f27a8e93-263e-4d37-bb14-9fff9b9be6b9)
 
