@@ -176,13 +176,13 @@ Link for the code is [here]()
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/46db6a76-bbfd-42cd-9420-63bc7973a7e4)
 
-![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/dedb5b8b-695a-46dd-95f7-510c50d88542
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/dedb5b8b-695a-46dd-95f7-510c50d88542)
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/58f4aad7-0ae0-4a18-94b9-0c6eaea17d00)
 
-![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/d9e66ab2-66ee-4b55-9998-5028ac19e079
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/d9e66ab2-66ee-4b55-9998-5028ac19e079)
 
-![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/d42d468d-3629-4506-961e-a61f0451b047)
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/f2b1c12d-390c-4e24-9247-63e5bf736c80)
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/3fbce9cf-4631-4769-9d0a-af584a6156fb)
 
