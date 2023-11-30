@@ -182,8 +182,6 @@ Link for the code is [here]()
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/d9e66ab2-66ee-4b55-9998-5028ac19e079)
 
-![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/f2b1c12d-390c-4e24-9247-63e5bf736c80)
-
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/3fbce9cf-4631-4769-9d0a-af584a6156fb)
 
 Visualize the Alertsss!!!!
