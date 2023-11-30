@@ -119,7 +119,7 @@ Let's review each of them individually:
 
 ## Introduction to Wazuh
 
-...
+[Click Here](https://github.com/sandxxax/IIPP-Internship/blob/main/Wazuh/README.md)
 
 ## Deploying Wazuh as an Agent in Tpot Honeypot and Integrating with Kibana Dashboard
 
