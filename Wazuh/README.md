@@ -150,6 +150,45 @@ We can click on the link provided and analyse the malicious file
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/fd781446-59a8-4d2a-920e-0f8e0d28d1fc)
 
+## Integration of Yara Rules in Wazuh for Malware Detonation:
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/99b57eb6-0ac0-4814-bb7f-7d583f39a45e)
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/e85c4b50-d928-4587-b7bd-a0c7483ec778)
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/3f740256-8b3b-4a39-b7e6-08d4440fc557)
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/1cc3b8d6-6fc8-4989-b342-a1621b4ef6f0)
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/3ae2938d-14e4-4ba6-9681-f65a56d0dcaa)
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/60d55e62-e481-4aa4-91c4-ea24283fab0b)
+
+Link for the code is [here]()
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/632f0853-7434-4b0a-9398-683066372144)
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/a6729ca5-f132-48e9-9752-bcaa802841fe)
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/8f09a6b1-98d8-42de-b0cf-4ea3b5de0d6c)
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/f00eba66-616f-448a-aef9-4a4cfde1f7fa)
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/46db6a76-bbfd-42cd-9420-63bc7973a7e4)
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/dedb5b8b-695a-46dd-95f7-510c50d88542
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/58f4aad7-0ae0-4a18-94b9-0c6eaea17d00)
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/d9e66ab2-66ee-4b55-9998-5028ac19e079
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/d42d468d-3629-4506-961e-a61f0451b047)
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/3fbce9cf-4631-4769-9d0a-af584a6156fb)
+
+Visualize the Alertsss!!!!
+
+
 ## 4.	Incorporating Suricata into Wazuh for Network Analysis:
 The integration of network analysis through Suricata into the Wazuh platform signifies a pivotal advancement in bolstering overall cybersecurity defenses. Suricata, renowned for its prowess as both an Intrusion Detection System (IDS) and Intrusion Prevention System (IPS), offers real-time monitoring and analysis of network traffic. By seamlessly incorporating Suricata logs into Wazuh, organizations gain a comprehensive view of their network's security landscape, empowering them to identify and respond to potential threats swiftly. This integration enables Wazuh to leverage Suricata's rule-based language, combining anomaly, protocol, and signature inspection methods for the detection of diverse malicious activities, including denial-of-service attacks, buffer overflows, and various other network-level threats. The enriched threat intelligence from Suricata enhances Wazuh's capabilities, allowing security professionals to proactively defend against sophisticated cyber threats by correlating network-level events with broader security indicators, ultimately fostering a more resilient and adaptive security posture. Network Packets and logs can be analyzed in detail for more information about the attacker.
 
