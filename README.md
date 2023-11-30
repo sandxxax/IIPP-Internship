@@ -150,8 +150,11 @@ Through the integration of MITRE ATT&CK Engage and Expose goals into Wazuh, secu
 To visualize the Alerts [Click Here](https://github.com/sandxxax/IIPP-Internship/blob/main/Wazuh/README.md#integration-of-wazuh-unifying-all-goals-in-one-platform)
 
 ## Python Code to Automate Sending Alerts to Email 
+The provided Python script functions as an intrusion detection system by continuously monitoring the Suricata fast.log file for potential security threats. Upon detecting specific attack signatures, the script triggers real-time email alerts to notify the user of possible breaches. It uses regular expressions to identify attack codes within log entries, and if a match is found, an email is sent using the `send_email` function. The script is set to run automatically on system startup, ensuring continuous monitoring and timely alerts for improved cybersecurity.
 
-...
+For automated alerting, the Python script utilizes the smtplib library to establish a connection to the Gmail SMTP server, facilitating the seamless transmission of email notifications. The integration with Gmail is secured using an application password, enhancing the overall security of email communication. The script allows users to easily customize the list of attack signatures to monitor. The integration with the VPN and Suricata service restart in the crontab entry showcases a comprehensive approach to ensuring the system is in the desired state before initiating the monitoring script. This solution not only automates the process of detecting and alerting on potential intrusions but also provides insights into customization options for tailored security monitoring.
+
+To go through the Python Code[Click Here](https://github.com/sandxxax/IIPP-Internship/blob/main/Python%20code)
 
 ## Findings and Analysis
 The comprehensive implementation of the MITRE Engage 'Affect' goal activities within the Tpot CE Honeypot, coupled with real-world scenarios and proactive measures, yielded valuable insights into the behavior of potential adversaries. The findings and analysis encapsulate key observations, strategic outcomes, and the overall impact on the honeypot's security posture.
