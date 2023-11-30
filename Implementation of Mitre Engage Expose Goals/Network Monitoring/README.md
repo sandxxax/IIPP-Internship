@@ -10,15 +10,15 @@
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/4840dac5-b70c-4507-aca8-16d2e6097e94)
 
-![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/4877b4c6-3071-477e-b69a-3987d5ba9d0c
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/4877b4c6-3071-477e-b69a-3987d5ba9d0c)
 
-![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/3e45d264-5a13-4fe0-8eaa-070eed430c00
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/3e45d264-5a13-4fe0-8eaa-070eed430c00)
 
-![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/52e286af-d1aa-4dfa-8ee4-033210dfadae
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/52e286af-d1aa-4dfa-8ee4-033210dfadae)
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/83d64016-ed4b-4cc9-ac31-35c1eddf9d4f)
 
-![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/dcf710fc-6e9f-416d-9e2d-c5d3b57631af
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/dcf710fc-6e9f-416d-9e2d-c5d3b57631af)
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/47654de5-d037-41a7-95bf-d3ef1aeb9091)
 
@@ -34,11 +34,27 @@ Let us view the GPL alert in Kibana Dash board
 
 Some of the attacks which suricata can detect are:
 
-![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/50b133fb-8ef0-4748-8087-e5e75fed0df6
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/50b133fb-8ef0-4748-8087-e5e75fed0df6)
 
+## Integration of Suricata Logs in Wazuh:
+The integration of Suricata logs into the Wazuh platform enhances network security monitoring by incorporating the potent threat detection engine of Suricata. This dynamic analysis, utilizing a rule-based language for anomaly detection and signature analysis, broadens visibility into network-level events. Seamless assimilation into Wazuh enables timely detection of denial-of-service attacks, buffer overflows, and various malicious activities. This integration empowers security professionals with an expanded scope of threat intelligence, facilitating proactive identification and mitigation of potential network threats. The synergy between Suricata and Wazuh establishes a comprehensive approach to security, aligning with the evolving cybersecurity landscape and providing organizations with a consolidated view for more effective defense.
 
 Alert generated in Wazuh:
-![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/dc6b4039-7f34-413e-8b29-d1f6276c48cd)
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/dc6b4039-7f34-413e-8b29-d1f6276c48cd
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/128e941d-2199-4d4a-b237-a1c8247d8d40)
+
+From attacker's perspective: When he does Nmap Scan,
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/d8085bdd-fb97-427c-aa9a-885d23d16a7e)
+
+We will get immediate alerts in Wazuh!!!
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/b165f11b-6ebd-4cf4-98bc-083c1f159a31)
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/208ff8ba-0f74-4131-89b5-4c75fb9ee5fb)
+
+
 
 
 
