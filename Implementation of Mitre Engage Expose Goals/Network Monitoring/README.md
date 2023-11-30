@@ -40,7 +40,7 @@ Some of the attacks which suricata can detect are:
 The integration of Suricata logs into the Wazuh platform enhances network security monitoring by incorporating the potent threat detection engine of Suricata. This dynamic analysis, utilizing a rule-based language for anomaly detection and signature analysis, broadens visibility into network-level events. Seamless assimilation into Wazuh enables timely detection of denial-of-service attacks, buffer overflows, and various malicious activities. This integration empowers security professionals with an expanded scope of threat intelligence, facilitating proactive identification and mitigation of potential network threats. The synergy between Suricata and Wazuh establishes a comprehensive approach to security, aligning with the evolving cybersecurity landscape and providing organizations with a consolidated view for more effective defense.
 
 Alert generated in Wazuh:
-![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/dc6b4039-7f34-413e-8b29-d1f6276c48cd
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/dc6b4039-7f34-413e-8b29-d1f6276c48cd)
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/128e941d-2199-4d4a-b237-a1c8247d8d40)
 
@@ -54,11 +54,29 @@ We will get immediate alerts in Wazuh!!!
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/208ff8ba-0f74-4131-89b5-4c75fb9ee5fb)
 
+## Automation of E-mail Alerts:
 
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/ca399148-8a43-4d21-9d21-542ca43c9e36)
 
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/76ef4175-a271-4e4b-b82e-8efbbeb08315)
 
+Executing Python code in T-pot Terminal:
 
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/136f9f23-0bd1-4371-8c2b-1655cad68a51)
 
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/161ebc99-ca10-4e81-9371-c55e12183856)
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/477db8e8-a4bf-4477-9bef-942af083e6e8)
+
+We can see that the emails are sent:
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/de37b4df-492a-45ea-9cd5-58aa251b393a)
+
+We can see the email alerts generated:
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/b9100e35-a68b-4cf8-a669-aba54b930632)
+
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/f27a8e93-263e-4d37-bb14-9fff9b9be6b9)
 
 
 
