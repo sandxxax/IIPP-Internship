@@ -187,7 +187,7 @@ Link for the code is [here](https://github.com/sandxxax/IIPP-Internship/blob/mai
 Visualize the Alertsss!!!!
 
 
-## 4.	Incorporating Suricata into Wazuh for Network Analysis:
+## 5.	Incorporating Suricata into Wazuh for Network Analysis:
 The integration of network analysis through Suricata into the Wazuh platform signifies a pivotal advancement in bolstering overall cybersecurity defenses. Suricata, renowned for its prowess as both an Intrusion Detection System (IDS) and Intrusion Prevention System (IPS), offers real-time monitoring and analysis of network traffic. By seamlessly incorporating Suricata logs into Wazuh, organizations gain a comprehensive view of their network's security landscape, empowering them to identify and respond to potential threats swiftly. This integration enables Wazuh to leverage Suricata's rule-based language, combining anomaly, protocol, and signature inspection methods for the detection of diverse malicious activities, including denial-of-service attacks, buffer overflows, and various other network-level threats. The enriched threat intelligence from Suricata enhances Wazuh's capabilities, allowing security professionals to proactively defend against sophisticated cyber threats by correlating network-level events with broader security indicators, ultimately fostering a more resilient and adaptive security posture. Network Packets and logs can be analyzed in detail for more information about the attacker.
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/a6c6d7ac-aeb6-4631-b1b1-566be66fcaad)
