@@ -78,7 +78,7 @@ Go to custom decoders, as highlighted in the figure
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/8c93c3b4-c19c-4994-a98a-b7ac1754a7ed)
 
-Modify the configuration file [Click Here](https://github.com/sandxxax/IIPP-Internship/blob/main/sysmon.xml) for configuration file
+- Modify the configuration file [Click Here](https://github.com/sandxxax/IIPP-Internship/blob/main/sysmon.xml) for configuration file
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/1a214bed-b88e-4332-a178-767e5a441b9b)
 
@@ -164,7 +164,7 @@ We can click on the link provided and analyse the malicious file
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/60d55e62-e481-4aa4-91c4-ea24283fab0b)
 
-Link for the code is [here]()
+Link for the code is [here](https://github.com/sandxxax/IIPP-Internship/blob/main/yara%20integration)
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/632f0853-7434-4b0a-9398-683066372144)
 
