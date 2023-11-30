@@ -151,8 +151,27 @@ To learn more how to integrate all goals in Wazuh [Click Here](https://github.co
 ...
 
 ## Findings and Analysis
+The comprehensive implementation of the MITRE Engage 'Affect' goal activities within the Tpot CE Honeypot, coupled with real-world scenarios and proactive measures, yielded valuable insights into the behavior of potential adversaries. The findings and analysis encapsulate key observations, strategic outcomes, and the overall impact on the honeypot's security posture.
 
-...
+### A.  Network Monitoring: 
+**Network Monitoring Using Suricata:** Real-time monitoring with Suricata in the T-pot Honeypot significantly boosted threat detection. The integration into Wazuh provided valuable insights into emerging threats, contributing to a more resilient cybersecurity posture. Key findings unveiled distinct patterns of malicious activities, facilitating a streamlined analysis of Suricata logs within Wazuh. These actionable insights empowered security teams to adapt their defense strategy effectively.
+
+**Key Findings:** The key findings in network monitoring using Suricata emphasized the rule-based language's effectiveness in detecting diverse threats. The logs highlighted the importance of real-time monitoring in identifying emerging threats promptly. The seamless integration into Wazuh facilitated a streamlined analysis of Suricata logs, providing security teams with actionable insights to fortify network defenses against evolving cyber threats.
+
+### B. System Activity Monitoring:
+**System Activity Monitoring using Sysmon:** The integration of Sysmon logs into Wazuh enriched the platform's understanding of system-level activities. Detailed insights into process creation, file modifications, and network connections allowed for comprehensive correlation between system and network indicators. Key findings underscored the pivotal role of Sysmon logs in enhancing situational awareness and operational safety. The correlation of system activity with network-level events provided a holistic view for more effective threat detection.
+
+**Key Findings:** Key findings in system activity monitoring using Sysmon emphasized the significance of detailed logs in enhancing cybersecurity. Sysmon's capabilities in logging critical events, such as process creation and file modifications, provided a granular view of potential threats. The integration into Wazuh streamlined the analysis process, allowing security teams to focus on relevant information. The findings highlighted Sysmon's role in strengthening the correlation between system and network-level indicators, facilitating a more comprehensive approach to threat detection.
+
+### C.	Malware Detonation:
+**Malware Detonation using VirusTotal and Yara Rules:** Strategic implementation of malware detonation using VirusTotal proved instrumental in analyzing the functionality of malicious software. The integration into Wazuh's File Integrity Monitoring (FIM) facilitated proactive monitoring of files and directories, ensuring a swift response to potential threats. Key findings underscored the collaborative and community-driven nature of VirusTotal, offering a more comprehensive understanding of emerging threats. The seamless integration enhanced Wazuh's threat detection capabilities, contributing to a more resilient cybersecurity posture.
+
+**Key findings:** Key findings in malware detonation using VirusTotal highlighted the platform's ability to provide detailed insights into malicious software behavior. The collaborative nature of VirusTotal, leveraging multiple antivirus engines, contributed to a thorough analysis of potential threats. The integration into Wazuh's FIM feature enhanced the platform's proactive monitoring capabilities. The findings emphasized the role of malware detonation in strengthening threat intelligence and fortifying defenses against evolving cyber threats.
+
+### D. Network Analysis:
+**Incorporating Suricata into Wazuh for Network Analysis:** The pivotal integration of Suricata into Wazuh for network analysis provided a comprehensive view of the network security landscape. Real-time monitoring and analysis of network traffic, leveraging Suricata's IDS and IPS functionalities, strengthened overall threat intelligence. Key findings emphasized the rule-based language's effectiveness in detecting diverse malicious activities. The collaboration between Suricata and Wazuh empowered a proactive defense against evolving cyber threats, showcasing the platform's adaptability and robust cybersecurity capabilities.
+
+**Key findings:** Key findings in incorporating Suricata into Wazuh highlighted the platform's ability to provide a unified defense against network-level threats. Suricata's versatility, combining IDS and IPS functionalities, enhanced real-time threat intelligence. The findings showcased the effectiveness of the rule-based language in detecting and responding to various malicious activities. The seamless integration into Wazuh allowed security professionals to correlate network-level events with broader security indicators, fostering a more resilient and adaptive security posture.
 
 ## Acknowledgment
 
