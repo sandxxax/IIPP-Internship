@@ -31,11 +31,11 @@ Sysmon Logs generated in T-pot Honeypot:
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/33879500-08aa-4591-8bc6-e2f3de411a7c)
 
-We are modyfying Sysmon logs to display in user friendly manner:
+We are modifying Sysmon logs to display in user friendly manner:
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/a9c9f9f0-41c5-4d87-9acb-b17019d39902)
 
-![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/a3af2ad4-e51c-4b02-957d-f2582fc56a84
+![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/a3af2ad4-e51c-4b02-957d-f2582fc56a84)
 
 ![image](https://github.com/sandxxax/IIPP-Internship/assets/122590982/62316010-297d-4521-b425-b6693d5f17b0)
 
